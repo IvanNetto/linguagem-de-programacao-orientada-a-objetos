@@ -89,13 +89,6 @@ public class Cadastro {
 		}else {
 			System.out.println("é diferente");
 		}		
-
-
-		
-		
-		
-		
-		
 		
 		
 		/* ##########################################################
@@ -114,6 +107,26 @@ public class Cadastro {
 		 * 
 		 * System.out.println(aluno.toString());
 		 */
+		
+		/* ####################################
+		 * ### WRAPPERS DOS TIPOS PRIMITIVOS###
+		 * ####################################
+		 */ 	
+
+		/*
+		 * A partir do java 1.4 o código abaixo compila, por causa do autoboxing que a linguagem faz. 
+		 * Ou seja, tratar um tipo primitivo como objeto. Como se fosse um cast de um tipo para objeto.
+		 */		
+		Object objetoInt = 10.00;
+		/*
+		 * Sem o autoboxing, o casting do tipo primitivo para um tipo object precisaria ser feito através
+		 * de uma classe wrapper. Essa classe embrulha o tipo primitivo e o passa a tratar como uma referência (um Objetc)
+		 */		
+		Object objetoIntComWrapper = new Double(10.00);		
+		// É possivel, além de embrulhar um tipo primitivo em um tip Object, desembrulhar. Ou seja, deixar de tratá-lo como um Object para tratá-lo como tipo primitivo.		
+		Integer integer = new Integer(10);
+		int valor = integer.intValue();
+		
 		
 		
 	}

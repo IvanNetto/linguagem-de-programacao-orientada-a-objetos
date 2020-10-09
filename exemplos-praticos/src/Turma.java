@@ -8,7 +8,6 @@ public class Turma {
 	/* ### CONSTRUTOR PARA EXIBIR A COR DO ESQUADRÃO ###
 	 * public Turma (Esquadrao esquadrao) { this.esquadrao = esquadrao; }
 	 */
-
     
 	@Override
 	public String toString() {
