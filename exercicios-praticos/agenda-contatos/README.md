@@ -3,7 +3,7 @@
 Implemente uma agenda telefônica usando uma lista de objetos. Cada contato da
 agenda deve ser representado como uma classe, a qual conterá informações como **nome**,
 **telefone**, **endereço**. A agenda deve ser implementada como uma outra
-classe, a qual conterá a lista de objetos (contatos). Uma agenda pode armazenar até 1000
+classe, a qual conterá a **lista** de objetos (contatos). Uma agenda pode armazenar até 1000
 contatos. Deve ser criada uma terceira classe, chamada App, a qual utilizará as
 classes criadas anteriormente. Além disso faça:
 
@@ -12,8 +12,7 @@ classes criadas anteriormente. Além disso faça:
    apenas o primeiro.
    
 2. Implemente métodos de inserção, alteração e remoção de contatos da agenda.
-   Caso o nome de um contato sendo inserido já exista na agenda, a inserção se torna
-   uma alteração. A remoção atribui null a posição do contato removido.
+   Caso o nome de um contato sendo inserido já exista na agenda.
    
 3. Implemente um método para listar os contatos de uma agenda. Para auxiliar tal
    listagem, crie um método toString(), na classe contato, o qual retorna uma string
