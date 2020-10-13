@@ -16,7 +16,7 @@ class Pedido {
 
 2. Altere a classe Pedido para conter também um campo data (objeto da classe
    java.time.LocalDate), a qual representa a data de realização do pedido, e
-   um campo preço. Crie também um construtor para facilitar a criação de objetos
+   um campo valor. Crie também um construtor para facilitar a criação de objetos
    desta classe.
    
 3. Neste sistema, o cliente também pode solicitar que seu pedido seja entregue de
