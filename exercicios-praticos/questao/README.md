@@ -37,16 +37,17 @@ class Discursiva extends Questao {
 }
 
 public class App {
-    public static void main(String[] args) {
-        Questao[] prova = new Questao[2];
+    public static void main(String[] args) {       
 
-        prova[0] = new Discursiva("Qual é o número da última versão de Java?", "8");
+        ArrayList<Questao> prova = new ArrayList<>();
 
-        ItemVerdadeiroFalso[] itens = new ItemVerdadeiroFalso[3];
-        itens[0] = new ItemVerdadeiroFalso("Java foi lançada há mais de 20 anos atrás", true);
-        itens[1] = new ItemVerdadeiroFalso("OO surgiu com a linguagem Java", false);
-        itens[2] = new ItemVerdadeiroFalso("Eclipse é um editor de texto multilinguagem", true);
-        prova[1] = new VerdadeiroFalso(itens);
+        prova.add(new Discursiva("Qual é o número da última versão de Java?", "8"));
+
+        ArrayList<ItemVerdadeiroFalso> itens = new ArrayList<>();
+        itens.add(new ItemVerdadeiroFalso("Java foi lançada há mais de 20 anos atrás", true)));
+        itens.add(new ItemVerdadeiroFalso("OO surgiu com a linguagem Java", false));
+        itens.add(new ItemVerdadeiroFalso("Eclipse é um editor de texto multilinguagem", true));
+        prova.add(new VerdadeiroFalso(itens));
 
         int num = 1;
 
