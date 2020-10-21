@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Cfs extends Curso implements Estagio{
 	
-	String ano;
-	int semestre;
-	ArrayList<Especialidade> listaDeEspecialidade = new ArrayList<Especialidade>(); // Composição. Pois a existência de um objeto Especialidade está ligada à existência de um objeto Cfs
+	private String ano;
+	private int semestre;
+	private ArrayList<Especialidade> listaDeEspecialidade = new ArrayList<Especialidade>(); // Composição. Pois a existência de um objeto Especialidade está ligada à existência de um objeto Cfs
 	
 	public Cfs(String sigla, String descricao, int duracao, String ano, int semestre) {
 		super(sigla, descricao, duracao);
