@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aula-0/aula-0.iml" filepath="$PROJECT_DIR$/aula-0/aula-0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplos-praticos/exemplos-praticos.iml" filepath="$PROJECT_DIR$/exemplos-praticos/exemplos-praticos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/linguagem-de-programacao-orientada-a-objetos.iml" filepath="$PROJECT_DIR$/.idea/linguagem-de-programacao-orientada-a-objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programa-2-livraria/programa-2-livraria.iml" filepath="$PROJECT_DIR$/programa-2-livraria/programa-2-livraria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projeto-final/projeto-final.iml" filepath="$PROJECT_DIR$/projeto-final/projeto-final.iml" />
+    </modules>
+  </component>
+</project>
